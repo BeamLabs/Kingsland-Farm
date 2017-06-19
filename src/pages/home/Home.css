@@ -1,3 +1,20 @@
 .homepage {
   text-align: center;
 }
+
+.youtube-video {
+  position:relative;
+  height:0;
+  padding-bottom:56.25%;
+  margin-top: 50px
+}
+
+.embed-iframe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
