@@ -7,12 +7,15 @@ class AboutSection extends Component {
         <Grid>
             <Row className="aboutSection-container">
                 <Col xs={6} md={4} className="images">
+                    <h3 className="pic-title">Event Venue</h3>
                     <img src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="event-venue-image square-img"/>
                 </Col>
                 <Col xs={6} md={4} className="images">
+                    <h3 className="pic-title">Vacations</h3>
                     <img src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="vacations-image square-img"/>
                 </Col>
                 <Col xs={6} md={4} className="images">
+                    <h3 className="pic-title">Stables</h3>
                     <img src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="stables-image square-img"/>
                 </Col>
             </Row>
