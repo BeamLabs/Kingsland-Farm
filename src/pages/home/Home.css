@@ -30,8 +30,15 @@ hr {
 
 
 .images {
+  position: relative;
   width: 33.3333%;
   display: inline-block;
+}
+
+.pic-title {
+  position: absolute;
+  top: 65%;
+  left: 24%;
 }
 
 .about-info {
