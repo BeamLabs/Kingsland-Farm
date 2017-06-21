@@ -1,31 +1,31 @@
 import React, { Component } from 'react';
-import {Col, Row, Grid} from 'react-bootstrap';
+import {Col, Row, Grid, Image} from 'react-bootstrap';
 
 class AboutSection extends Component {
   render() {
     return (
         <Grid>
             <Row className="aboutSection-container">
-                <Col xs={6} md={4} className="images">
+                <Col xs={12} md={4} className="images">
                     <h3 className="pic-title">Event Venue</h3>
-                    <img src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="event-venue-image square-img"/>
+                    <Image src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="event-venue-image square-img" responsive/>
                 </Col>
-                <Col xs={6} md={4} className="images">
+                <Col xs={12} md={4} className="images">
                     <h3 className="pic-title">Vacations</h3>
-                    <img src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="vacations-image square-img"/>
+                    <Image src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="vacations-image square-img" responsive/>
                 </Col>
-                <Col xs={6} md={4} className="images">
+                <Col xs={12} md={4} className="images">
                     <h3 className="pic-title">Stables</h3>
-                    <img src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="stables-image square-img"/>
+                    <Image src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="stables-image square-img" responsive/>
                 </Col>
             </Row>
             <Row>            
-                <Col md={12} xs={6} className="about-info">
+                <Col md={12} xs={12} className="about-info">
                     <p>"Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity. As tolerably recommend shameless unfeeling he objection consisted. She although cheerful perceive screened throwing met not eat distance. Viewing hastily or written dearest elderly up weather it as. So direction so sweetness or extremity at daughters. Provided put unpacked now but bringing."</p>
                 </Col>
             </Row>
             <Row>
-                <Col md={12} xs={6} className="properties-button">
+                <Col md={12} xs={8} className="properties-button">
                     <a href='#' className="properties-link">View Our Properties</a>
                 </Col>
             </Row>
