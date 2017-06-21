@@ -21,24 +21,17 @@
 
 hr {
   width: 80%;
+  border-top: 1px solid #999;
 }
 
 .aboutSection-container {
-  width: 80%;
-  margin: 40px auto 0 auto;
-}
-
-
-.images {
-  position: relative;
-  width: 33.3333%;
-  display: inline-block;
+  margin-top: 40px
 }
 
 .pic-title {
   position: absolute;
-  top: 65%;
-  left: 24%;
+  top: 74%;
+  left: 10%;
 }
 
 .about-info {
@@ -46,10 +39,11 @@ hr {
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
+  float: none;
+  font-size: 1.5em;
 }
 
 .properties-button {
-  width: 80%;
   border: 1px solid #999;
   background-color: #999; 
   margin: 0 auto 50px auto;
@@ -65,17 +59,38 @@ hr {
   font-size: 1em;
 }
 
+.properties-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .properties-button:hover {
   cursor: pointer;
   background-color: #888;
   box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
+.testimonial-header {
+  margin-bottom: 30px;
+}
+
+.testimonial-div {
+  /*line-height: 200px;*/
+  font-size: 1.5em;
+  color: #26A69A;
+}
+
+.testimonial-quote {
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+.testimonial-carousel {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 640px) {
-  .images {
-    display: block;
-    width: 100%;
-  }
 
   .embed-iframe {
     width: 90%;
@@ -83,11 +98,19 @@ hr {
   }
 
   .about-info {
-    width: 80%;
-    padding-top: 0px; 
+    width: 100%;
   }
 
-  .aboutSection-container {
-    width: 100%;
+  .square-img {
+    margin: 0 auto;
+  }
+
+  .properties-button {
+    width: 80%;
+    float: none;
+  }
+
+  .testimonial-quote {
+    line-height: 1.3;
   }
 }
