@@ -4,43 +4,6 @@ import StarRatingComponent from 'react-star-rating-component';
 
 class TestimonialSection extends Component {
   render() {
-    const testimonialArray = [
-        {
-            quote: "I had an amazing exprience with my family at Kingsland Farm with my Family.",
-            person: "John Smith",
-            rating: 4
-        },
-        {
-            quote: "The staff was very friendly and helpful with finding the right place to have a fun a vacation!",
-            person: "Jamie Stone",
-            rating: 5
-        },
-        {
-            quote: "The house we stayed in for the weekend was absolutely wonderful. Very clean and well maintained.",
-            person: "Mike Howell",
-            rating: 4.5
-        },
-        {
-            quote: "All the amenties that were offered made my families stay just that much better",
-            person: "Johnny Bravo",
-            rating: 5
-        },
-        {
-            quote: "I would and have recommended this to all my friends if you are looking for a fun adventure!",
-            person: "Seymour Butts",
-            rating: 4
-        }
-    ];
-
-    const testimonials = testimonialArray.map((testimonial, index) => {
-        return (
-            <div key={index}>
-                <p className="testimonial-quote">{testimonial.quote}</p>
-                <p className="testimonial-person">-{testimonial.person}</p>
-            </div>
-        )
-    })
-
     return (
         <Grid>
             <div className="testimonial-container">
