@@ -1,31 +1,56 @@
-.Header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+  border-radius: 0px;
+  height: 130px;
+  position: relative
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.navbar > .container {
+  width: 100%;  
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.nav-items {
+  position: relative;
+  top: 80px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  z-index: 1000;
 }
 
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+.nav-items > li {
+  padding-left: 40px;
+}
+
+.navbar-inverse .navbar-nav>.active>a  {
+  background-color: #222;
+}
+.navbar-inverse .navbar-nav>.active>a:hover  {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.open>a:hover  {
+  background-color: #222;
+}
+
+.open>.dropdown-menu {
+  z-index: 10000;
+}
+
+@media only screen and (max-width: 770px) {
+
+  .topnav {
+    height: auto;
+  }
+
+  .nav-items {
+    position: relative;
+    float: none;
+    transform: translate(0%, 0%);
+    top: 0;
+    left: 0;
+  }
+
+  .nav-items > li {
+    padding-left: inherit;
+  }
 }
