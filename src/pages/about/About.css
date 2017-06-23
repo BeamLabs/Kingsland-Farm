@@ -1,7 +1,3 @@
-.about-page {
-  text-align: center;
-}
-
 .about-hero-image {
   display: block;
   margin: auto;
@@ -12,4 +8,8 @@
   width: 60%;
   margin: auto;
   text-align: left;
+}
+
+.gallery-content {
+  /*Gallery styles go here. */
 }

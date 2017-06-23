@@ -30,9 +30,9 @@ class About extends Component {
           elsewhere of sometimes or my certainty. Lain no as five or at high.
           Everything travelling set how law literature.</p>
         </div>
-        <div className="gallery-content">
+      <div className="gallery-content">
           <h2>Gallery</h2>
-          <AboutGallery />
+          <AboutGallery/>
         </div>
       </div>
     );
