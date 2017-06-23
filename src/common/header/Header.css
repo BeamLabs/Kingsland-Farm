@@ -32,6 +32,14 @@
   background-color: #222;
 }
 
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: #222;
+}
+
 .open>.dropdown-menu {
   z-index: 10000;
 }
