@@ -1,3 +1,15 @@
-.aboutpage {
+.about-page {
   text-align: center;
+}
+
+.about-hero-image {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.text-content {
+  width: 60%;
+  margin: auto;
+  text-align: left;
 }
