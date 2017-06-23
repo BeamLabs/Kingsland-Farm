@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Col, Row, Grid, Image} from 'react-bootstrap';
+import PropertiesButton from '../../../common/components/propertiesButton/PropertiesButton';
 
 class AboutSection extends Component {
   render() {
@@ -20,16 +21,12 @@ class AboutSection extends Component {
                     <Image src="http://placehold.it/300/09f.png/fff" alt="Event Venues" className="stables-image square-img" responsive/>
                 </Col>
             </Row>
-            <Row>            
+            <Row>
                 <Col md={12} sm={12} xs={12} className="about-info">
                     <p>"Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity. As tolerably recommend shameless unfeeling he objection consisted. She although cheerful perceive screened throwing met not eat distance. Viewing hastily or written dearest elderly up weather it as. So direction so sweetness or extremity at daughters. Provided put unpacked now but bringing."</p>
                 </Col>
             </Row>
-            <Row>
-                <Col lg={12} md={12} xs={12} sm={12} className="properties-button">
-                    <a href='#' className="properties-link">View Our Properties</a>
-                </Col>
-            </Row>
+            <PropertiesButton />
             <hr/>
         </Grid>
     );
