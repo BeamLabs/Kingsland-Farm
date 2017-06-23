@@ -20,7 +20,7 @@ class ContactSection extends Component {
                     <p>Atlanta, GA 30306</p>
                 </Col>
                 <Col lg={6} md={6}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13263.785451178008!2d-84.42251844999998!3d33.78788324999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd6f1ae8b253bd43!2sStrongbox+West!5e0!3m2!1sen!2sus!4v1498145378872" width="400" height="300" frameborder="0" style={{border:0}} allowfullscreen title="google-map-iframe" className="map-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13263.785451178008!2d-84.42251844999998!3d33.78788324999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd6f1ae8b253bd43!2sStrongbox+West!5e0!3m2!1sen!2sus!4v1498145378872" width="400" height="300" frameBorder="0" style={{border:0}} allowFullScreen title="google-map-iframe" className="map-iframe">
                     </iframe>
                 </Col>
             </Row>
