@@ -42,13 +42,15 @@ hr {
   font-size: 1.5em;
 }
 
+/*TODO: Remove after refactoring Properties button into component. */
 .properties-button {
   border: 1px solid #999;
-  background-color: #999; 
+  background-color: #999;
   margin: 0 auto 50px auto;
   height: 100px;
 }
 
+/*TODO: Remove after refactoring Properties button into component. */
 .properties-link {
   display: block;
   vertical-align: middle;
@@ -58,11 +60,13 @@ hr {
   font-size: 1em;
 }
 
+/*TODO: Remove after refactoring Properties button into component. */
 .properties-link:hover {
   text-decoration: none;
   color: #fff;
 }
 
+/*TODO: Remove after refactoring Properties button into component. */
 .properties-button:hover {
   cursor: pointer;
   background-color: #888;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './About.css';
 import {Grid, Row, Col, Carousel} from 'react-bootstrap';
 import AboutGallery from './aboutComponents/AboutGallery';
+import PropertiesButton from '../../common/components/propertiesButton/PropertiesButton';
 
 class About extends Component {
   render() {
@@ -30,10 +31,13 @@ class About extends Component {
           elsewhere of sometimes or my certainty. Lain no as five or at high.
           Everything travelling set how law literature.</p>
         </div>
-      <div className="gallery-content">
-          <h2>Gallery</h2>
-          <AboutGallery/>
+        <div className="gallery-content">
+            <h2>Gallery</h2>
+            <AboutGallery/>
         </div>
+        <Grid>
+          <PropertiesButton />
+        </Grid>
       </div>
     );
   }
