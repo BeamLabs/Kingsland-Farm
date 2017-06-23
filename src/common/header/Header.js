@@ -43,7 +43,7 @@ class Header extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav className="nav-items">
-            <LinkContainer to="/home">
+            <LinkContainer to="/">
               <NavItem eventKey={1}>Home</NavItem>
             </LinkContainer>
             <LinkContainer to="/about">
