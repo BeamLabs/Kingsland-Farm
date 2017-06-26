@@ -1,0 +1,35 @@
+.intro-title {
+    font-size: 50px;
+}
+
+.intro-paragraph {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.accordion-container {
+    text-align: left;
+}
+
+.property-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.panel-body {
+    font-size: 20px;
+}
+
+.panel-title {
+    font-size: 25px;
+}
+
+.second-accordion {
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 348px) {
+    .accordion-info {
+        clear: left;
+    }
+}

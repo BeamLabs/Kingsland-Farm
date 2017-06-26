@@ -1,13 +1,19 @@
 .about-hero-image {
   display: block;
-  margin: auto;
+}
+
+.hero-image {
   width: 80%;
+  margin: 0 auto;
 }
 
 .text-content {
   width: 60%;
-  margin: auto;
-  text-align: left;
+  margin: 0 auto;
+  float: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5;
 }
 
 .gallery-content {
