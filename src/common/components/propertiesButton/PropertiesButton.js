@@ -7,7 +7,7 @@ class PropertiesButton extends Component {
     return (
       <Row>
           <Col lg={12} md={12} xs={12} sm={12} className="properties-button">
-              <a href='#' className="properties-link">View Our Properties</a>
+              <a href='/properties' className="properties-link">View Our Properties</a>
           </Col>
       </Row>
     );
