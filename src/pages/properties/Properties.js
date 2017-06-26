@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col, Accordion, Panel, Image} from 'react-bootstrap';
-import PropertiesAccorion from './propertiesComponents/AccordionComponent';
+import PropertiesAccordion from './propertiesComponents/AccordionComponent';
 import AboutGallery from '../../pages/about/aboutComponents/AboutGallery';
 import './Properties.css';
 
@@ -28,7 +28,7 @@ class PropertiesPage extends Component {
             </Col>
         </Row>
         <Row>
-          <PropertiesAccorion/>
+          <PropertiesAccordion/>
         </Row>
         <Row>
             <Col md={12} sm={12} className="secondary-title">
