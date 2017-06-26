@@ -60,16 +60,16 @@ class Header extends Component {
             </NavDropdown>
 
             <NavDropdown eventKey={4} title="Properties" id="property-navdropdown"  onMouseEnter={this.handlePropOpen} onMouseLeave={this.handlePropClose} open={this.state.isPropOpen}>
-              <LinkContainer to="/summerhaven">
+              <LinkContainer to="/properties">
                 <MenuItem eventKey={4.1}>SummerHaven</MenuItem>
               </LinkContainer>
-              <LinkContainer to="/lakejoy">
+              <LinkContainer to="/properties">
                 <MenuItem eventKey={4.2}>Lake Joy House</MenuItem>
               </LinkContainer>
-              <LinkContainer to="/cottage">
+              <LinkContainer to="/properties">
                 <MenuItem eventKey={4.3}>Cottage</MenuItem>
               </LinkContainer>
-              <LinkContainer to="/stables">
+              <LinkContainer to="/properties">
                 <MenuItem eventKey={4.1}>Stables</MenuItem>
               </LinkContainer>
             </NavDropdown>
