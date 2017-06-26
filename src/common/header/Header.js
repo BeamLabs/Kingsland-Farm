@@ -50,7 +50,7 @@ class Header extends Component {
               <NavItem eventKey={2}>About</NavItem>
             </LinkContainer>
 
-            <NavDropdown eventKey={3} title="Experiences" id="experience-navdropdown" onMouseEnter={this.handleExpOpen} onMouseLeave={this.handleExpClose} open={this.state.isExpOpen}>
+            <NavDropdown eventKey={3} title="Experiences" id="experience-navdropdown" onMouseEnter={this.handleExpOpen} onMouseLeave={this.handleExpClose} open={this.state.isExpOpen} onToggle={this.handleExpOpen}>
               <LinkContainer to="/events">
                 <MenuItem eventKey={3.1}>Events</MenuItem>
               </LinkContainer>
@@ -59,7 +59,7 @@ class Header extends Component {
               </LinkContainer>
             </NavDropdown>
 
-            <NavDropdown eventKey={4} title="Properties" id="property-navdropdown"  onMouseEnter={this.handlePropOpen} onMouseLeave={this.handlePropClose} open={this.state.isPropOpen}>
+            <NavDropdown eventKey={4} title="Properties" id="property-navdropdown"  onMouseEnter={this.handlePropOpen} onMouseLeave={this.handlePropClose} open={this.state.isPropOpen} onToggle={this.handlePropOpen}>
               <LinkContainer to="/properties">
                 <MenuItem eventKey={4.1}>SummerHaven</MenuItem>
               </LinkContainer>
