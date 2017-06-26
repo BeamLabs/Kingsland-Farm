@@ -4,10 +4,8 @@ import { BrowserRouter as Router, Route, IndexRoute } from 'react-router-dom';
 import Header from './common/header/Header';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
-import Cottage from './pages/cottage/Cottage';
-import LakeJoy from './pages/lakejoy/LakeJoy';
-import Stables from './pages/stables/Stables';
-import SummerHaven from './pages/summerhaven/SummerHaven';
+import Properties from './pages/properties/Properties';
+
 
 class App extends Component {
   render() {
@@ -18,10 +16,7 @@ class App extends Component {
             <Header/>
             <Route exact path='/' component={Home}/>
             <Route path='/about' component={About}/>
-            <Route path='/cottage' component={Cottage}/>
-            <Route path='/lakejoy' component={LakeJoy}/>
-            <Route path='/stables' component={Stables}/>
-            <Route path='/summerhaven' component={SummerHaven}/>
+            <Route path='/properties' component={Properties}/>
           </div>
         </Router>
       </div>
