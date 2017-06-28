@@ -18,3 +18,10 @@ At the time of writing, the application uses node version 8.1.0
 
 ### Start the application using forever.js
 ```npm install -g forever.js```
+```forever start server/server.js```
+
+### View Running forever processes and the location of their logs
+```forever list```
+
+### Stop all running forever processes
+```forever stopall```
