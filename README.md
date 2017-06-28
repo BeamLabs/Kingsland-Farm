@@ -18,3 +18,4 @@ At the time of writing, the application uses node version 8.1.0
 
 ### Start the application using forever.js
 ```npm install -g forever.js```
+```forever server/server.js```
