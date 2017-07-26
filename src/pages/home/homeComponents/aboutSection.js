@@ -23,7 +23,7 @@ class AboutSection extends Component {
             </Row>
             <Row>
                 <Col md={12} sm={12} xs={12} className="about-info">
-                    <p>"Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity. As tolerably recommend shameless unfeeling he objection consisted. She although cheerful perceive screened throwing met not eat distance. Viewing hastily or written dearest elderly up weather it as. So direction so sweetness or extremity at daughters. Provided put unpacked now but bringing."</p>
+                    <p>"Welcome to Kingsland Farm, where kindred spirits intertwine. Our charming, multi-acre property tucked in south Georgia awaits you. Perfect for special events such as weddings, family reunions or romantic getaways, Kingsland Farm is the perfect place for any gathering."</p>
                 </Col>
             </Row>
             <PropertiesButton />

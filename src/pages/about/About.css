@@ -19,3 +19,9 @@
 .gallery-content {
   /*Gallery styles go here. */
 }
+
+.paragraph-content {
+  text-align: left;
+  margin-top: 35px;
+  font-size: 18px;
+}

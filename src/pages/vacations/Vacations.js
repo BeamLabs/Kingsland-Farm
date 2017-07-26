@@ -25,9 +25,10 @@ class Vacations extends Component {
         <Row>
             <Col md={12} sm={12} className="about-container">
                 <p className="about-paragraph">
-                    Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what. An concluded sportsman offending so provision mr education. Bed uncommonly his discovered for estimating far. Equally he minutes my hastily. Up hung mr we give rest half. Painful so he an comfort is manners. 
-
-                    On insensible possession oh particular attachment at excellence in. The books arose but miles happy she. It building contempt or interest children mistress of unlocked no. Offending she contained mrs led listening resembled. Delicate marianne absolute men dashwood landlord and offended. Suppose cottage between and way. Minuter him own clothes but observe country. Agreement far boy otherwise rapturous incommode favourite. 
+                    Feeling more like a seaside escape? In that case, the Summer Haven is calling your name! A sister
+                    property of Kingsland Farm, the Summer Haven is a hidden oasis of ocean view fun! Located just south
+                    of St. Augustine, Florida, you’re sure to be enchanted by the paradise-like atmosphere as soon as you
+                    arrive. Read more about the Summer Haven house here. (include link to that section of properties page when ready)
                 </p>
             </Col>
         </Row>

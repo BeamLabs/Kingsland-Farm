@@ -15,11 +15,10 @@ class PropertiesPage extends Component {
         </Row>
         <Row>
             <Col md={12} lg={12} className="intro-section">
-                <p className="intro-paragraph">At every tiled on ye defer do. No attention suspected oh difficult. Fond his say old meet cold find come whom. The sir park sake bred. Wonder matter now can estate esteem assure fat roused. Am performed on existence as discourse is. Pleasure friendly at marriage blessing or. 
-
-                Warmly little before cousin sussex entire men set. Blessing it ladyship on sensible judgment settling outweigh. Worse linen an of civil jokes leave offer. Parties all clothes removal cheered calling prudent her. And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help. Latter person am secure of estate genius at. 
-
-                Performed suspicion in certainty so frankness by attention pretended. Newspaper or in tolerably education enjoyment. Extremity excellent certainty discourse sincerity no he so resembled. Joy house worse arise total boy but. Elderly up chicken do at feeling is. Like seen drew no make fond at on rent. Behaviour extremely her explained situation yet september gentleman are who. Is thought or pointed hearing he.</p>
+                <p className="intro-paragraph">
+                    Kingsland Farm is home to many properties, all suited for different needs and experiences. Learn
+                    more about each property below. Each can be rented separately or together for larger events.
+                </p>
             </Col>
         </Row>
         <Row>
@@ -39,7 +38,13 @@ class PropertiesPage extends Component {
           <Accordion>
              <Panel header="SummerHaven" eventKey={1} style={{textAlign: 'left'}}>
                 <Image src="http://via.placeholder.com/200x200" alt="100x100" className="property-image"/>
-                <p className="accordion-info">Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. </p>
+                <p className="accordion-info">
+                    Your beachside paradise awaits! Kingsland Farm’s sister property in St. Augustine Florida is the
+                    perfect destination for a one-of-a-kind vacation. This 3 bedroom/3 bath home is yours to make your
+                    own, and comes well stocked with necessities in order to make your visit worry-free. Enjoy a
+                    comfortable stay in a modern and updated beach house with plenty of all-inclusive amenities, all
+                    just a few steps from a private beach!
+                </p>
                 <br/>
                 <p><span style={{fontWeight: 'bold'}}>For Reservations:</span>
                 <br/>

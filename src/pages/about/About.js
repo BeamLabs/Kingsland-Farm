@@ -16,26 +16,19 @@ class About extends Component {
         <Row>
           <Col md={12} sm={12} xs={12} className="text-content">
             <h2>About</h2>
-            <p style={{fontSize: '18px'}}>Old unsatiable our now but considered travelling impression.
-            In excuse hardly summer in basket misery. By rent an part need.
-            At wrong of of water those linen. Needed oppose seemed how all.
-            Very mrs shed shew gave you. Oh shutters do removing reserved wandered an.
-            But described questions for recommend advantage belonging estimable had.
-            Pianoforte reasonable as so am inhabiting. Chatty design remark and his
-            abroad figure but its.</p>
+            <h3>Where Kindred Spirits Fly</h3>
+            <p className="paragraph-content">Welcome to Kingsland Farm, a picturesque farmland tucked in south Georgia.
+            Upon your arrival you will be swept up by the scent of sweet wildflowers as the sun sparkles off the water of the property’s private lake.
+            The Lake Joy House sits atop a hill overlooking the grounds, and makes for a perfect spot to entertain.
+            This property has plenty of space and scenery to host an unforgettable wedding or family reunion.
+            Around the corner there is an inviting outdoor fire pit area, as well as plenty of wrap-around porch space for happy hours.</p>
+
+            <p className="paragraph-content">The Cottage lies a bit further down the main road, making it an ideal place for a bride to put on finishing touches.
+              The farm also features plenty of recreational space, including horse stables, a skeet shooting range and lake activities.
+              An ideal retreat or special event space with all-inclusive amenities will be sure to make for a memorable experience!
+            </p>
+
           </Col>
-        </Row>
-        <Row>
-        <Col md={12} sm={12} xs={12} className="text-content">
-          <h2>History</h2>
-          <p style={{fontSize: '18px'}}>Him boisterous invitation dispatched had connection inhabiting
-          projection. By mutual an mr danger garret edward an. Diverted as
-          strictly exertion addition no disposal by stanhill. This call wife do
-          so sigh no gate felt. You and abode spite order get. Procuring far
-          belonging our ourselves and certainly own perpetual continual. It
-          elsewhere of sometimes or my certainty. Lain no as five or at high.
-          Everything travelling set how law literature.</p>
-        </Col>
         </Row>
         <Row>
           <Col md={12} sm={12} className="gallery-content">
