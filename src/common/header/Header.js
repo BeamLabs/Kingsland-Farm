@@ -36,7 +36,7 @@ class Header extends Component {
       <Navbar inverse collapseOnSelect className="topnav">
         <Navbar.Header>
           <Navbar.Brand>
-            <p>KingsLand Farm</p>
+            <img src="/images/kingsland-logo.png"/>
           </Navbar.Brand>
           <Navbar.Toggle/>
         </Navbar.Header>
