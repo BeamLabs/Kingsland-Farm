@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Header.css';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 

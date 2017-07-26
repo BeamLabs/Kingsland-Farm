@@ -1,6 +1,6 @@
 import './AboutGalleryStyles.css';
 import React, { Component } from 'react';
-import {Grid, Row, Col, Carousel, Image} from 'react-bootstrap';
+import { Carousel, Image } from 'react-bootstrap';
 
 class AboutGallery extends Component {
   render() {
