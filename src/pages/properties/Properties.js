@@ -37,7 +37,7 @@ class PropertiesPage extends Component {
         <Row className="second-accordion">
           <Accordion>
              <Panel header="SummerHaven" eventKey={1} style={{textAlign: 'left'}}>
-                <Image src="http://via.placeholder.com/200x200" alt="100x100" className="property-image"/>
+                <Image src="/images/summerhaven-photos/summerhaven15.jpg" alt="100x100" className="property-image"/>
                 <p className="accordion-info">
                     Your beachside paradise awaits! Kingsland Farm’s sister property in St. Augustine Florida is the
                     perfect destination for a one-of-a-kind vacation. This 3 bedroom/3 bath home is yours to make your

@@ -1,8 +1,8 @@
-import './AboutGalleryStyles.css';
+import './VacationsGalleryStyles.css';
 import React, { Component } from 'react';
 import { Carousel, Image } from 'react-bootstrap';
 
-class AboutGallery extends Component {
+class VacationsGallery extends Component {
   render() {
     const imageWidth = 1000;
     const imageHeight = 500;
@@ -12,12 +12,6 @@ class AboutGallery extends Component {
     return (
       <div className="about-image-carousel">
         <Carousel>
-           <Carousel.Item>
-             <Image width={imageWidth} height={imageHeight} alt={altString} src={"/images/cottage-photos/cottage11.jpg"} responsive/>
-           </Carousel.Item>
-           <Carousel.Item>
-             <Image width={imageWidth} height={imageHeight} alt={altString} src={"/images/cottage-photos/cottage8.jpg"} responsive/>
-           </Carousel.Item>
            <Carousel.Item>
              <Image width={imageWidth} height={imageHeight} alt={altString} src={"/images/summerhaven-photos/summerhaven15.jpg"} responsive/>
            </Carousel.Item>
@@ -30,4 +24,4 @@ class AboutGallery extends Component {
   }
 }
 
-export default AboutGallery;
+export default VacationsGallery;
