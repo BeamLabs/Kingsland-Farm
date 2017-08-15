@@ -9,13 +9,13 @@ class About extends Component {
     return (
       <Grid>
         <Row>
+          <h2>About</h2>
           <Col md={12} sm={12} className="about-hero-image">
-            <Image src="http://via.placeholder.com/1000x500" responsive className="hero-image"/>
+            <Image src="/images/cottage-photos/cottage13.jpg" responsive className="hero-image"/>
           </Col>
         </Row>
         <Row>
           <Col md={12} sm={12} xs={12} className="text-content">
-            <h2>About</h2>
             <h3>Where Kindred Spirits Fly</h3>
             <p className="paragraph-content">Welcome to Kingsland Farm, a picturesque farmland tucked in south Georgia.
             Upon your arrival you will be swept up by the scent of sweet wildflowers as the sun sparkles off the water of the property’s private lake.

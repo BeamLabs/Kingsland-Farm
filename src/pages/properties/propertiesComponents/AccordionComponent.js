@@ -7,7 +7,7 @@ class PropertiesAccordion extends Component {
     return (
         <Accordion className="accordion-container">
             <Panel header="Lake Joy House" eventKey={1}>
-                <Image src="http://via.placeholder.com/200x200" alt="100x100" className="property-image"/>
+                <Image src="/images/cottage-photos/cottage11.jpg" alt="100x100" className="property-image"/>
                 <p className="accordion-info">
                     The Lake Joy House is the main house on the property. It is an expansive farmhouse that sits atop a
                     hill overlooking the private pond, offering a gorgeous view no matter what. It is a short distance
@@ -22,7 +22,7 @@ class PropertiesAccordion extends Component {
                 <p>Please visit: <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
             </Panel>
             <Panel header="The Cottage" eventKey={2}>
-                <Image src="http://via.placeholder.com/200x200" alt="100x100"  className="property-image"/>
+                <Image src="/images/cottage-photos/cottage11.jpg" alt="100x100"  className="property-image"/>
                 <p className="accordion-info">
                     The Cottage is a quiet country home on the most beautiful private land in Georgia. Awaiting your
                     arrival is a 3 bedroom/2 bathroom space with plenty of areas for entertaining. Spend your evenings
@@ -35,7 +35,7 @@ class PropertiesAccordion extends Component {
                 <p>Please visit: <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
             </Panel>
             <Panel header="The Stables" eventKey={3}>
-                <Image src="http://via.placeholder.com/200x200" alt="100x100"  className="property-image"/>
+                <Image src="/images/cottage-photos/cottage10.jpg" alt="100x100"  className="property-image"/>
                 <p className="accordion-info">
                     Need to get more information about the stables from Monica to properly describe them.
                 </p>

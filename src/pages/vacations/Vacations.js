@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col, Image} from 'react-bootstrap';
-import AboutGallery from '../../pages/about/aboutComponents/AboutGallery';
+import VacationsGallery from './VacationsGallery.js';
 import './Vacations.css';
 
 class Vacations extends Component {
@@ -17,11 +17,9 @@ class Vacations extends Component {
                 <h1 className="title-header">Vacations</h1>
             </Col>
         </Row>
-        <Row>
-            <Col md={12} sm={12} className="intro-image-container">
-                <Image src="http://via.placeholder.com/1000x500" className="intro-image" alt="1000x500" responsive/>
-            </Col>
-        </Row>
+        
+        <VacationsGallery/>
+
         <Row>
             <Col md={12} sm={12} className="about-container">
                 <p className="about-paragraph">
@@ -44,12 +42,6 @@ class Vacations extends Component {
                 </Col>
             </Row>
         </div>
-        <Row>
-            <Col md={12} sm={12}>
-                <h2 className="gallery-title">Gallery</h2>
-            </Col>
-        </Row>
-        <AboutGallery/>
       </Grid>
     );
   }
