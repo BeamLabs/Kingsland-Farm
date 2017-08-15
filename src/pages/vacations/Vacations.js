@@ -9,7 +9,7 @@ class Vacations extends Component {
       <Grid className="vacations-container">
         <Row>
             <Col>
-                <h5>For reservations / availability, please visit <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></h5>
+                <h5>For reservations / availability, please visit <a href="https://www.vrbo.com/831318">https://www.vrbo.com/831318</a></h5>
             </Col>
         </Row>
         <Row>
@@ -26,7 +26,7 @@ class Vacations extends Component {
                     Feeling more like a seaside escape? In that case, the Summer Haven is calling your name! A sister
                     property of Kingsland Farm, the Summer Haven is a hidden oasis of ocean view fun! Located just south
                     of St. Augustine, Florida, you’re sure to be enchanted by the paradise-like atmosphere as soon as you
-                    arrive. Read more about the Summer Haven house here. (include link to that section of properties page when ready)
+                    arrive.
                 </p>
             </Col>
         </Row>
@@ -38,7 +38,7 @@ class Vacations extends Component {
             </Row>
             <Row>
                 <Col md={12} sm={12}>
-                    <p className="reservations-text">For reservations, please visit <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
+                    <p className="reservations-text">For reservations, please visit <a href="https://www.vrbo.com/831318">https://www.vrbo.com/831318</a></p>
                 </Col>
             </Row>
         </div>

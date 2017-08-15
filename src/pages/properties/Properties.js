@@ -48,7 +48,7 @@ class PropertiesPage extends Component {
                 <br/>
                 <p><span style={{fontWeight: 'bold'}}>For Reservations:</span>
                 <br/>
-                Please visit: <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
+                Please visit: <a href="https://www.vrbo.com/831318">https://www.vrbo.com/831318</a></p>
             </Panel>
           </Accordion>
         </Row>

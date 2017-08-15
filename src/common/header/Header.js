@@ -20,6 +20,7 @@ class Header extends Component {
   handleExpOpen() {
     this.setState({isExpOpen: true})
   }
+
   handleExpClose() {
     this.setState({isExpOpen: false})
   }
@@ -27,6 +28,7 @@ class Header extends Component {
   handlePropOpen() {
     this.setState({isPropOpen: true})
   }
+
   handlePropClose() {
     this.setState({isPropOpen: false})
   }
@@ -42,7 +44,7 @@ class Header extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav className="nav-items">
-            <LinkContainer to="/">
+            <LinkContainer to="/#">
               <NavItem eventKey={1}>Home</NavItem>
             </LinkContainer>
             <LinkContainer to="/about">
@@ -57,21 +59,10 @@ class Header extends Component {
                 <MenuItem eventKey={3.2}>Vacations</MenuItem>
               </LinkContainer>
             </NavDropdown>
-
-            <NavDropdown eventKey={4} title="Properties" id="property-navdropdown"  onMouseEnter={this.handlePropOpen} onMouseLeave={this.handlePropClose} open={this.state.isPropOpen} onToggle={this.handlePropOpen}>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.1}>Lake Joy House</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.2}>Cottage</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.3}>Stables</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.1}>Summer Haven</MenuItem>
-              </LinkContainer>
-            </NavDropdown>
+            
+            <LinkContainer to="/properties">
+              <NavItem eventKey={2}>Properties</NavItem>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

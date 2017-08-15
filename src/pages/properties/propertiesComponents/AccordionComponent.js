@@ -19,7 +19,7 @@ class PropertiesAccordion extends Component {
                 <br/>
                 <span className="reservation-header">For Reservations:</span>
                 <br/>
-                <p>Please visit: <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
+                <p>Please visit: <a href="https://www.vrbo.com/776510">https://www.vrbo.com/776510</a></p>
             </Panel>
             <Panel header="The Cottage" eventKey={2}>
                 <Image src="/images/cottage-photos/cottage11.jpg" alt="100x100"  className="property-image"/>
@@ -28,11 +28,11 @@ class PropertiesAccordion extends Component {
                     arrival is a 3 bedroom/2 bathroom space with plenty of areas for entertaining. Spend your evenings
                     by a cozy outdoor fire pit, and your days swimming off the dock or enjoying the skeet shooting range.
                     You’ll have endless ways to escape, while sleeping in absolute comfort each night.
-                ß</p>
+                </p>
                 <br/>
                 <span className="reservation-header">For Reservations:</span>
                 <br/>
-                <p>Please visit: <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
+                <p>Please visit: <a href="https://www.vrbo.com/776510">https://www.vrbo.com/776510</a></p>
             </Panel>
             <Panel header="The Stables" eventKey={3}>
                 <Image src="/images/cottage-photos/cottage10.jpg" alt="100x100"  className="property-image"/>
@@ -42,7 +42,7 @@ class PropertiesAccordion extends Component {
                 <br/>
                 <span className="reservation-header">For Reservations:</span>
                 <br/>
-                <p>Please visit: <a href="http://vrbo.com/12345">http://vrbo.com/12345</a></p>
+                <p>Please visit: <a href="https://www.vrbo.com/776510">https://www.vrbo.com/776510</a></p>
             </Panel>
         </Accordion>
     );

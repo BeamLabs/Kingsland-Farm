@@ -27,22 +27,28 @@
 }
 
 .navbar-inverse .navbar-nav>.active>a  {
-  background-color: #222;
+  /*background-color: #222;*/
+  background-color: transparent;
+  text-decoration: underline;
 }
 .navbar-inverse .navbar-nav>.active>a:hover  {
-  background-color: #222;
+  /*background-color: #222;*/
+    background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>.open>a:hover  {
-  background-color: #222;
+  /*background-color: #222;*/
+    background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>.open>a:focus {
-  background-color: #222;
+  /*background-color: #222;*/
+    background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>.active>a:focus {
-  background-color: #222;
+  /*background-color: #222;*/
+    background-color: transparent;
 }
 
 .open>.dropdown-menu {
