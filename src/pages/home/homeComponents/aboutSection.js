@@ -9,16 +9,13 @@ class AboutSection extends Component {
             <hr/>
             <Row className="aboutSection-container">
                 <Col lg={4} md={4} sm={4} xs={12} className="images">
-                    <h3 className="pic-title">Event Venue</h3>
-                    <Image src="/images/stock-photos/events-stock-photo.jpeg" alt="Event Venues" className="event-venue-image square-img" responsive/>
+                    <Image src="/images/stock-photos/events.png" alt="Event Venues" className="event-venue-image square-img" responsive/>
                 </Col>
                 <Col lg={4} md={4} sm={4} xs={12} className="images">
-                    <h3 className="pic-title">Vacations</h3>
-                    <Image src="/images/stock-photos/vacation-stock-photo.jpeg" alt="Vacations" className="vacations-image square-img" responsive/>
+                    <Image src="/images/stock-photos/vacations.png" alt="Vacations" className="vacations-image square-img" responsive/>
                 </Col>
                 <Col lg={4} md={4} sm={4} xs={12} className="images">
-                    <h3 className="pic-title">Stables</h3>
-                    <Image src="/images/stock-photos/stables-stock-photo.jpeg" alt="Stables" className="stables-image square-img" responsive/>
+                    <Image src="/images/stock-photos/stables.png" alt="Stables" className="stables-image square-img" responsive/>
                 </Col>
             </Row>
             <Row>
