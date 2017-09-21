@@ -2,11 +2,19 @@
   border-radius: 0px;
   height: 130px;
   position: relative;
-  background-color: #d5bf8d;
+  background-color: #eeefea;
 }
 
 .navbar > .container {
   width: 100%;  
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-inverse {
+  border-color: none;
 }
 
 .nav-items {
